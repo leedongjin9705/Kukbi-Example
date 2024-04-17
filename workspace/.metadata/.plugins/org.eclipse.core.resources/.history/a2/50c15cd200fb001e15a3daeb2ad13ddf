@@ -1,0 +1,8 @@
+package chap06.sec06.exam01;
+
+public class car { // 라이브러리 클래스
+	String model;
+	boolean start;
+	int speed;
+
+}

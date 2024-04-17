@@ -1,0 +1,10 @@
+package chap03.sec10;
+
+public class AssignmentOprtatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

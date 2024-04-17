@@ -1,0 +1,11 @@
+package chap06.sec11.exam01;
+
+public class KoreanExample {
+
+	public static void main(String[] args) {
+		//Korean 객체를 생성시 주민번호와 이름을 전달함
+		Korean k1 = new Korean("123456-1234567", "감자바");
+
+	}
+
+}

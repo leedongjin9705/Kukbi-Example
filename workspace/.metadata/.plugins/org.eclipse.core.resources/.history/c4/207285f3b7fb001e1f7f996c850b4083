@@ -1,0 +1,12 @@
+package chap06.sec08.exam04;
+
+public class CalculatorExample {
+
+	public static void main(String[] args) {
+		// 객체 생성
+		Calculator myCalcu = new Calculator();
+		
+		double result1 = myCalcu.areaRectangel(10)
+	}
+
+}

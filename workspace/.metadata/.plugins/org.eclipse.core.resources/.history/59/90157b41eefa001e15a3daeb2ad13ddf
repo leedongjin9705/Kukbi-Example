@@ -1,0 +1,9 @@
+package chap05.sec12;
+
+public class MatrixExample {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

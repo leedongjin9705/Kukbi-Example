@@ -1,0 +1,10 @@
+package chap04.sec03;
+
+public class SwitchNoBreakExample {
+
+	public static void main(String[] args) {
+		int time = (int) (Math.random()*4) + 4;
+
+	}
+
+}

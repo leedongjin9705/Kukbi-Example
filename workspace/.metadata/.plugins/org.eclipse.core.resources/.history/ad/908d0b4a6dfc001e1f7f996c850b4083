@@ -1,0 +1,15 @@
+package chap06.sec15;
+
+public class SingletonExample {
+
+	public static void main(String[] args) {
+		// Singleton obj1 = new Singleton(); // 컴파일 에러 
+		// Singleton obj2 = new Singleton(); // 컴파일 에러
+		
+		// 정적 메소드를 호출해서 Singleton() 객체를 생성
+		Singleton obj1 = Singleton.getIntance();
+		Singleton obj2 = Singleton.getIntance();
+		
+	}
+
+}

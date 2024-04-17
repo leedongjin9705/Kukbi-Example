@@ -1,0 +1,11 @@
+package chap05.sec02;
+
+public class ArrayTest1 {
+
+	public static void main(String[] args) {
+		String[] name = new String[4];
+		name[0] = "이동진";
+		name[1] =
+	}
+
+}

@@ -1,0 +1,12 @@
+package chap05.sec04;
+
+public class NullPoiterExceptionExample {
+
+	public static void main(String[] args) {
+		int[] intArray = null;
+		
+		String str = null;
+
+	}
+
+}

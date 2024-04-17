@@ -1,0 +1,5 @@
+package chap06.sec13.exam02.package2; // A클래스와 패키지가 다름
+
+public class C {
+
+}

@@ -1,0 +1,24 @@
+package chap06.sec14;
+
+public class Car {
+	// 필드 선언
+	private int speed;
+	private boolean stop;
+	
+	//Setter :  데이터를 검증해서 유효한 값만 필드에 저장하는 메소드
+	
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public boolean isStop() { 
+		return stop;
+	}
+	public void setStop(boolean stop) {
+		this.stop = stop;
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package chap06.sec12.exam02;
+
+public class MemberServiceExample {
+
+	public static void main(String[] args) {
+		MemberService memsberService = new MemberService();
+		
+		boolean result = memberService
+
+	}
+
+}

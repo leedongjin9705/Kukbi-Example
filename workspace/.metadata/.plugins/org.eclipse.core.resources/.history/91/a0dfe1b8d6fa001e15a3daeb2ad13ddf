@@ -1,0 +1,10 @@
+package chap05.sec010;
+
+public class AdvancedForExample {
+
+	public static void main(String[] args) {
+		int[] scores = {95, 71, 84, 93, 87}; // 배열 변수 선언
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package chap06.sec13.exam02.package1; //A클래스와 동일한 패키지
+
+public class B {
+
+}

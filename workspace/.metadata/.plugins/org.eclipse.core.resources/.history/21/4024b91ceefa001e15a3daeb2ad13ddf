@@ -1,0 +1,9 @@
+package chap05.sec12;
+
+public class Example {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

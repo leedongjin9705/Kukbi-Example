@@ -1,0 +1,10 @@
+package chap04.sec03;
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		int num = (int)(Math.random()*6)+1;
+
+	}
+
+}

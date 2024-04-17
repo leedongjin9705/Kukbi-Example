@@ -1,0 +1,10 @@
+package chap05.sec05;
+
+public class EmptyStringExample {
+
+	public static void main(String[] args) {
+		String hobby = "";
+
+	}
+
+}
