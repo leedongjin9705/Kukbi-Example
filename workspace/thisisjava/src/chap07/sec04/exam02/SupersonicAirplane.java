@@ -15,6 +15,8 @@ public class SupersonicAirplane extends Airplane{
 			//Airplane 객체의 fly() 메소드 호출
 			super.fly(); // 부모 클래스의 fly() 메소드 호출
 			
+			
+			
 		}
 	}
 

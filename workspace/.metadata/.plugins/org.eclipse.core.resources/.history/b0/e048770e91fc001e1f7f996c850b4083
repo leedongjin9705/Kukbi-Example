@@ -1,0 +1,15 @@
+package chap07.sec06.package1;
+
+public class B {
+	// 메소드 선언
+	public void method() {
+		A a = new A(); // 가능
+		a.field = "value"; // 가능
+		a.method(); // 가능
+		
+	}
+	/* protected
+	 * A 클래스의 protected로 선언된 필드, 생성자, 메소드는 
+	 * */
+
+}
