@@ -1,0 +1,10 @@
+package chap07.sec011;
+
+public class sealedExample {
+
+	public static void main(String[] args) {
+		Person p = new Person();
+
+	}
+
+}

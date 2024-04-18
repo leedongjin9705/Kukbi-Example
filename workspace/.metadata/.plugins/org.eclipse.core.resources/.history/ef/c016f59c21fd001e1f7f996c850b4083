@@ -1,0 +1,10 @@
+package chap07.sec08.exam01;
+
+public class HankookTire extends Tire{
+	
+	public void roll() {
+		@Override
+		System.out.println("한국 타이어가 회전합니다");
+	}
+
+}
