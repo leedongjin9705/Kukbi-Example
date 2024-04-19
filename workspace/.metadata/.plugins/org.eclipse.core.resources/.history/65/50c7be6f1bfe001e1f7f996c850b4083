@@ -1,0 +1,17 @@
+package chap08.sec11.exam02;
+
+public class DriverExample {
+
+	public static void main(String[] args) {
+		//Driver 객체 생성
+		Driver driver = new Driver();
+		
+		//Vehicle 구현 객체 생성
+		Bus bus = new Bus();
+		Texi taxi = new Texi();
+		
+		//매개값으로 구현된 객체 대입
+
+	}
+
+}
