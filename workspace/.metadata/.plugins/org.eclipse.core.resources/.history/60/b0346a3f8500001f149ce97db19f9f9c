@@ -1,0 +1,12 @@
+package chap09.sec07.exam03;
+
+public class ButtonExample {
+
+	public static void main(String[] args) {
+		// Ok 버튼 객체 생성
+		Button btnOk = new Button();
+		// Ok 버튼 객체 ClickListener 구현 객체를 주입
+
+	}
+
+}

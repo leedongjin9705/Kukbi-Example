@@ -8,4 +8,9 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="chap06.sec06.exam01.car"/>
     <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
+    <fullyQualifiedTypeName name="chap06.sec10.exam01.Calculator"/>
+    <fullyQualifiedTypeName name="chap06.sec12.hankook.SnowTire"/>
+    <fullyQualifiedTypeName name="chap06.sec12.kumho.AllSeasonTire"/>
+    <fullyQualifiedTypeName name="chap06.sec13.exam02.package1.A"/>
+    <fullyQualifiedTypeName name="chap08.sec04.RemoteControl"/>
 </qualifiedTypeNameHistroy>

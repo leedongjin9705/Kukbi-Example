@@ -1,0 +1,15 @@
+package chap09.sec05.exam01;
+
+public class A {
+	// A 클래스의 인스턴스 필드와 메소드를 선언
+	int field1;
+	void method1() {
+		
+	}
+	// A 클래스의 정적 필드와 메소드를 선언 
+	int field2;
+	void method2ㄴ() {
+		
+	}
+
+}
