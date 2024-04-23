@@ -1,0 +1,18 @@
+package chap12.sec03.exam01;
+
+public class EqualExample {
+
+	public static void main(String[] args) {
+		Member obj1 = new Member("blue");
+		Member obj2 = new Member("blue");
+		Member obj3 = new Member("red");
+		
+		if(obj1.equals(obj2)) {// 매개값이 Member 타입이고, id도 동일하므로 true
+			System.out.println("obj1 과 obj2 는 동등합니다");
+		} else {
+			System.out.println("동등하지 않습니다");
+		}
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package chap11.sec04;
+
+public class MyResource implements AutoCloseable{
+	private String name;
+	public MyResource(String name) {
+		this.name=name;
+	}
+
+}

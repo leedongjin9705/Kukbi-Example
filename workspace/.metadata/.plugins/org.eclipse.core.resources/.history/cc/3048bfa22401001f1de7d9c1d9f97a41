@@ -1,0 +1,5 @@
+package chap11.sec06;
+
+public class InsuffientException extends Exception {
+
+}
