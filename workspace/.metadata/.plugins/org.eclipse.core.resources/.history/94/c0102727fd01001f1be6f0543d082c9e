@@ -1,0 +1,10 @@
+package chap12.sec04;
+
+public class MeasureRunTimeExample {
+
+	public static void main(String[] args) {
+		long time1 = System.nanoTime()
+
+	}
+
+}

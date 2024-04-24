@@ -1,0 +1,12 @@
+package chap12.sec04;
+
+public class ErrExample {
+
+	public static void main(String[] args) {
+		try {
+			int value = Integer.parseInt("1oo");
+		}
+
+	}
+
+}

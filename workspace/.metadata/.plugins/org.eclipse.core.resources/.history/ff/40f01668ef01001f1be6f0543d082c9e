@@ -1,0 +1,10 @@
+package chap12.sec04;
+
+public class InExample {
+
+	public static void main(String[] args) {
+		int speed = 0;
+		int KeyCode =0;
+	}
+
+}

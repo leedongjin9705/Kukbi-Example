@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.sql.rowset.serial.SQLOutputImpl"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="chap06.sec06.exam01.car"/>
     <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
@@ -14,4 +13,5 @@
     <fullyQualifiedTypeName name="chap06.sec13.exam02.package1.A"/>
     <fullyQualifiedTypeName name="chap08.sec04.RemoteControl"/>
     <fullyQualifiedTypeName name="chap09.sec06.exam03.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package chap12.sec07.prac02;
+
+public class WrongPasswordException {
+
+}

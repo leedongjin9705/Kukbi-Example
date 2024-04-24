@@ -1,0 +1,14 @@
+package chap12.sec03.exam05;
+
+import lombok.Data;
+import lombok.NonNull;
+
+
+@Data
+public class Member {
+	private final String id;
+	@NonNull private String name;
+	
+	//@NonNull
+	// null이 아닌 다른 값으로 Setter 메서드를 통해 변경할 수 있음
+}

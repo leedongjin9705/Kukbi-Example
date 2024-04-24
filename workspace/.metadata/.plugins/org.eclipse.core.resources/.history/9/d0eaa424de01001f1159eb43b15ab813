@@ -1,0 +1,23 @@
+package chap12.sec03.exam05;
+
+import lombok.Data;
+import lombok.NonNull;
+
+/* @Data 
+ * 컴파일 과정에서 기본 생성자와 함계 Getter, Setter, hashCode(), equals(),
+ * toString() 메서드가 자동 생성됨
+ */
+
+@Data 
+public class Member {
+	private final String Member.id;
+	@NonNull private String name;
+	
+	/* @NonNull
+	 * null이 아닌 값으로 Setter 메서드를 통해서 변경할 수 있음 
+ 	 */
+	
+	
+	
+
+}
