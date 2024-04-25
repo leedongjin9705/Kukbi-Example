@@ -1,7 +1,0 @@
-package chap07.sec04.exam02;
-
-public class SupersonicAirplane {
-	//상수 선언
-	public static final int NORMAL = 1;
-
-}

@@ -1,0 +1,12 @@
+package chap12.sec08;
+
+import java.util.TimeZone;
+
+public class LosAngelesExample {
+
+    public static void main(String[] args) {
+        TimeZone timezone = TimeZone.getTimeZone("America/Los_Angeles");
+        System.out.println("Timezone: " + timezone);
+    }
+
+}

@@ -1,0 +1,12 @@
+package chap12.sec12;
+
+public class PrintAnnotationExample {
+
+	public static void main(String[] args) {
+		/*Service 클래스에 선언된 메소드를 리플렉션해서
+		 * 
+		 */
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package chap07.sec03.exam02;
-
-public class Phone {
-	//필드 선언
-	this.model = model;
-	this.color = color;
-
-}
