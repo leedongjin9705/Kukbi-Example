@@ -1,0 +1,11 @@
+package chap14.sec09.exam02;
+
+public class RunnableExecuteExample {
+
+	public static void main(String[] args) {
+		// 1000개의 Runnable 을 생성한 다음 execute 메소드로 작업 큐에 넣음
+		// 
+
+	}
+
+}

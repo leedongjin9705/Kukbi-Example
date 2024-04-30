@@ -1,0 +1,8 @@
+package chap12.sec13.exam05;
+
+public class Student {
+	private String studentNum;
+	
+	public Student(String stusentNum)
+
+}

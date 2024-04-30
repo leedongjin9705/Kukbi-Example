@@ -1,0 +1,9 @@
+package chap14.sec07.exam01;
+
+public class PrintThread {
+	private boolean stop;
+	
+	public void setStop(boolean stop) { // 외부에서 stop 필드값을 변경할 수 있도록 선언함
+		this.stop = stop;
+	}
+}

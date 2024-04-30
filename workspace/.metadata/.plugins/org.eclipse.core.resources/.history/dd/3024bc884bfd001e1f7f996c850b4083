@@ -1,5 +1,0 @@
-package chap07.sec012;
-
-public class Child extends Parent{
-
-}

@@ -1,9 +1,0 @@
-package chap08.sec02;
-
-public class Audio implements RemoteControl {
-	
-	public void turnOm() {
-		System.out.println("오디오 켬");
-	}
-
-}

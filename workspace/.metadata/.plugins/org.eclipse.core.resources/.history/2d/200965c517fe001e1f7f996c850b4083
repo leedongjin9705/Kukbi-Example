@@ -1,8 +1,0 @@
-package chap08.sec11.exam01;
-
-public class Car {
-	//인터페이스 필드
-	Tire tire1 = new HankookTire();
-	Tire tire2 = new HankookTire();
-
-}

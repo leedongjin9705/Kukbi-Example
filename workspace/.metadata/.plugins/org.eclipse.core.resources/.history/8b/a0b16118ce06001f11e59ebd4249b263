@@ -1,0 +1,28 @@
+package chap14.sec09.exam02;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class CallableSubmitExample {
+
+	public static void main(String[] args) {
+		// 스레드 풀 생성(최대 5개의 스레드 운영)
+		ExecutorService executorService = Executors.newFixedThreadPool(5);
+		
+		// 게산 작업 생성 및 처리 요청
+		for(int i=0; i<=100; i++) {
+			final int idx = i;
+			Future <Integer> future = executorService.submit(new Callable<Integer>();
+			
+			@Override
+			public Integer call() throws Exception {
+				int sum = 0;
+				for(int i=1; i<=idx; i++) {
+					sum += i;
+				}
+			}
+		});
+
+	}
+
+}

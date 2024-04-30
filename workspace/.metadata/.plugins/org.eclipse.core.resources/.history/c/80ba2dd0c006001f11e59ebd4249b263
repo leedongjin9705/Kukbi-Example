@@ -1,0 +1,12 @@
+package chap14.sec07.exam03;
+
+public class InterruptExample {
+
+	public static void main(String[] args) {
+		Thread thread = new PrintThread();
+		
+		
+
+	}
+
+}

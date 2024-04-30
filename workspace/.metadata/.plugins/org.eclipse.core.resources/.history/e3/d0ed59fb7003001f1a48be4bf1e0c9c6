@@ -1,0 +1,13 @@
+package chap12.sec13.exam12;
+
+public class IntegerCom {
+
+	public static void main(String[] args) {
+		Integer obj1 = 100;
+		Integer obj2 = 100;
+		Integer obj3 = 100;
+		Integer obj4 = 100;
+
+	}
+
+}
