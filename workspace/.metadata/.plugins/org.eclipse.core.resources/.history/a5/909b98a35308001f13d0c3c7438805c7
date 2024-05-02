@@ -1,0 +1,11 @@
+package chap15.sec02.exam02;
+
+public class VectorExample {
+
+	public static void main(String[] args) {
+		// threadA, threadB에서 동시에 Board 객체를 Vector에 각가 1000개씩
+		// 추가한 후, 전체 저장된 수를 출력
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package chap12.sec06.prac01;
-
-public class TryCatch {
-	String[] strArray = {"10", "2a"};
-	int value = 0;
-	for(int i=0; i<2;i++)
-
-}

@@ -1,0 +1,10 @@
+package chap15.sec02;
+
+public class Board {
+	private String subject;
+	private String content;
+	private String writer;
+	
+	public Board(String subject, String content, String weiter)
+
+}

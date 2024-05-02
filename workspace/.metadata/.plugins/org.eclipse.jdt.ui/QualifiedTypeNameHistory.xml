@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="chap06.sec13.exam02.package1.A"/>
     <fullyQualifiedTypeName name="chap08.sec04.RemoteControl"/>
     <fullyQualifiedTypeName name="chap09.sec06.exam03.Button.ClickListener"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.SignerOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -29,4 +28,7 @@
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 </qualifiedTypeNameHistroy>
