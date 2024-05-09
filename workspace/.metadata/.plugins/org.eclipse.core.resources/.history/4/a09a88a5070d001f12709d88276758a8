@@ -1,0 +1,10 @@
+package chap15.sec06.exam02;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// Queue 컬렉션 생성(FIFO 구조)
+		Queue<Message> messageQueue = new LinkedList;
+	}
+
+}

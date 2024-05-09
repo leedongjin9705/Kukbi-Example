@@ -1,0 +1,42 @@
+package chap15.sec07;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class SynchronizedMapExample {
+
+	public static void main(String[] args) {
+		// ThreadA, ThreadB 에서 객체 1000개씩 HashMap에 추가한 후 
+		
+		// Map 컬렉션 생성
+		Map<Integer, String> map = Collections.synchronizedMap(new HashMap<>());
+		
+		// 작업 스레드 A 객체 생성
+		Thread ThreadA = new Thread() {
+			@Override
+			public void run() {
+				for(int i=1; i<=1000; i++) {
+					map.put(i, "내용"+1);
+				}
+			}
+		};
+        // 작업 스레드 B 객체 생성
+        Thread ThreadB = new Thread() {
+            @Override
+            public void run() {
+                for (int i = 1001; i <= 2000; i++) {
+                    map.put(i, "내용" + i);
+                }
+            }
+        };
+		
+		ThreadA.start();
+		ThreadB.start();
+		
+		try {
+			ThreadA.join();
+			ThreadB.join();
+		} catch(Exceptin e)
+	}
+}

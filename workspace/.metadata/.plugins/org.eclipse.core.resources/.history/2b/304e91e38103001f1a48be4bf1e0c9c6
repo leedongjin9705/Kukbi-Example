@@ -1,6 +1,0 @@
-package chap13.sec02.exam02;
-
-// HomeAgency 는 Home 을 렌트해 주는
-public class HomeAgency {
-
-}

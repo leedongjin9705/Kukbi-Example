@@ -1,0 +1,17 @@
+package chap15.sec06.exam02;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// Queue 컬렉션 생성(FIFO 구조)
+		Queue<Message> messageQueue = new LinkedList<>();
+		
+		messageQueue.offer(new Message("sendMail", "이동진"));
+		messageQueue.offer(new Message("sendSMS", "김동진"));
+		messageQueue.offer(new Message("sendKakao", "박동진"));
+	}
+
+}

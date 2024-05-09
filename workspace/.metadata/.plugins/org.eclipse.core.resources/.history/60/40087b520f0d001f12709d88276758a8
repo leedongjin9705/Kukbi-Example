@@ -1,0 +1,17 @@
+package chap15.sec07;
+
+import java.util.*;
+
+public class ImmutableExample {
+
+	public static void main(String[] args) {
+		// 불변 컬렉션 생성 : List, Set, Map 의 정적 메소드인 of()로 생성함 
+		// List 불변 컬렉션 생성(저장된 요소를 변경하고 싶지 않을때 사용)
+		List<String> ImmutableList1 = List.of("A","B","C");
+		// ImmutableList1.add("D");
+		// ImmutableList1.remove("C");
+		System.out.println(ImmutableList1);
+		
+	}
+
+}

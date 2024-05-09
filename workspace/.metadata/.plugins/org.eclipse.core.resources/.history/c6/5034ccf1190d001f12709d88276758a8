@@ -1,0 +1,8 @@
+package chap15.sec09.exam07;
+
+public class BoardDao {
+	public List<Board> getBoardList(){
+		List<Board> list = new ArrayList<Board>();
+	}
+
+}

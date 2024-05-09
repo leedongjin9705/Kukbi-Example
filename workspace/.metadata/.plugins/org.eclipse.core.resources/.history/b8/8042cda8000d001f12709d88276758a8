@@ -1,0 +1,9 @@
+package chap15.sec05.exam04;
+
+public class ComparableExample {
+
+	public static void main(String[] args) {
+		// 비교자를 제공한 TreeSet 컬렉션을 생성
+	}
+
+}

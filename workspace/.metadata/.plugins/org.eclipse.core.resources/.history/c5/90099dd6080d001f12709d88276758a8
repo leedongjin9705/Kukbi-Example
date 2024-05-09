@@ -1,0 +1,25 @@
+package chap15.sec06.exam02;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// Queue 컬렉션 생성(FIFO 구조)
+		Queue<Message> messageQueue = new LinkedList<>();
+		
+		// 메세지를 큐에 넣기: offer() 메소드 이용
+		messageQueue.offer(new Message("sendMail", "이동진"));
+		messageQueue.offer(new Message("sendSMS", "김동진"));
+		messageQueue.offer(new Message("sendKakao", "박동진"));
+		
+		// 메시지를 하나씩 꺼내어
+		while(!messageQueue.isEmpty()) { // 큐가 비어있지 않다면 while문 반복
+			Message message = messageQueue.poll(); // Message 객체를 하나 꺼내옴
+			
+		}
+	}
+
+}
+

@@ -1,7 +1,0 @@
-package chap14.sec06.exam02;
-
-public class ThreadA extends Thread {
-	private Workobject workobject;
-	
-	public ThreadA(Workobject workobject)
- }
