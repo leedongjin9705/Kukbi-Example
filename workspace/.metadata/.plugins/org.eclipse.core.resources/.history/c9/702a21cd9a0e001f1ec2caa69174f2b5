@@ -1,0 +1,13 @@
+package chap16.sec07.exam05;
+
+import javax.sql.rowset.serial.SQLOutputImpl;
+
+public class Example {
+
+	public static void main(String[] args) {
+		Button btnOk = new Button();
+		btnOk.setClickListener();
+		btnOk.click();
+	}
+
+}

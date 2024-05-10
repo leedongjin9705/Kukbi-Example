@@ -1,0 +1,12 @@
+package chap16.sec06;
+
+public class Member {
+	private String id;
+	private String name;
+	
+	public Member(String id) {
+		this.id = id;
+		System.out.println("Member(String id)");
+	}
+
+}

@@ -1,0 +1,18 @@
+package chap16.sec02.exam02;
+
+public class ButtonExample {
+
+	public static void main(String[] args) {
+		// Ok 버튼 객체 생성
+		Button btnOk = new Button();
+		
+		btnOk.setClickListener(() ->{
+			// 매개값으로 람다식을 대입
+			System.out.println("OK 버튼을 클릭했습니다.");
+			
+		});
+		
+
+	}
+
+}

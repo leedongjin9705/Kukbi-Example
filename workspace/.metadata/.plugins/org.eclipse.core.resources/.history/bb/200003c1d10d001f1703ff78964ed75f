@@ -1,0 +1,6 @@
+package chap16.sec02.exam03;
+
+@FunctionalInterface
+public interface Speakable {
+
+}

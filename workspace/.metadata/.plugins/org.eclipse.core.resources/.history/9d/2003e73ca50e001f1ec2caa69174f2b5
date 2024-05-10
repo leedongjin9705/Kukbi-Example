@@ -1,0 +1,14 @@
+package chap17.sec03;
+
+import java.util.Arrays;
+
+public class StreamPipeLineExample {
+
+	public static void main(String[] args) {
+		List<String> list =Arrays.asList(
+				new Stuㅇent("이동진")
+				)
+
+	}
+
+}
