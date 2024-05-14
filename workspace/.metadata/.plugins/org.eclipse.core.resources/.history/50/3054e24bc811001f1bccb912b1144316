@@ -1,0 +1,16 @@
+package chap17.sec12.exam01;
+
+import java.util.List;
+
+public class CollectExample {
+
+	public static void main(String[] args) {
+		List<Student> totalList = new ArrayList<>();
+		totalList.add(new Student("이동진", "남", 92));
+		totalList.add(new Student("이동건", "여", 86));
+		totalList.add(new Student("이동장", "남", 91));
+		totalList.add(new Student("이동빈", "여", 93));
+
+	}
+
+}

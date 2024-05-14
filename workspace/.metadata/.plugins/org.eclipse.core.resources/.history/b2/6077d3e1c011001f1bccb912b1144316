@@ -1,0 +1,11 @@
+package chap17.sec10;
+
+public class OptionalExample {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		
+
+	}
+
+}

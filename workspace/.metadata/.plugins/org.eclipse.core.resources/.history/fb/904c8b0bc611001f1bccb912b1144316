@@ -1,0 +1,17 @@
+package chap17.sec11;
+
+import java.util.Arrays;
+
+public class ReductionExample {
+
+	public static void main(String[] args) {
+		List<Student> studentList = Arrays.asList(
+				new Student("이동진", 28),
+				new Student("이동건", 29),
+				new Student("이동숙", 30),
+
+				);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package chap17.sec12.exam01;
+
+import java.util.List;
+
+public class CollectExample {
+
+	public static void main(String[] args) {
+		List<Student> totalList = new ArrayList<>();
+		totalList.add(new Student("이동진", "남", 92));
+
+	}
+
+}
