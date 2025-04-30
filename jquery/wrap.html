@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        p {
+            background-color: yellow;
+        }
+        div {
+            border: 5px solid red;
+            margin: 10px;
+        }
+        main {
+            border: 5px solid blue;
+            padding: 5px;
+
+        }
+    </style>
+    <script>
+        $(function(){
+            $('button').on('click', function(){
+                $('p').unwrap();
+            })
+        });
+    </script>
+</head>
+<body>
+    <button>클릭</button>
+    <main>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus</p>
+</div>
+</main>
+</body>
+</html>

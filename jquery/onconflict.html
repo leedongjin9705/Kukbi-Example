@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        let abc = $.noConflict();
+        abc(function(){
+            abc('button').on('click', function(){
+                abc('.display').text('jQuery 동작하죠?')
+            });
+        })
+    </script>
+</head>
+<body>
+    <button>클릭</button>
+    <div class="display">===</div>
+</body>
+</html>

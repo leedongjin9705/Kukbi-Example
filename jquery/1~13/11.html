@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src = "11.js"></script>
+    <style>
+        div.div_menu {
+            width: 300px;
+            background-color: yellowgreen;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn_menu">메뉴야 열려라</button>
+    <div class="div_menu">메뉴1<br>메뉴2<br>메뉴3</div>
+
+    <script>
+        $("button.btn_menu").on('click', function() {
+            $("div.div_menu").slideToggle(200, function() {
+                alert(1);
+            });
+        })
+    </script>
+</body>
+</html>

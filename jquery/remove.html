@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $('#btn').on('click', function(){
+                $('p').remove('.red, .yellow');
+            })
+        });
+    </script>
+    <style>
+        .div1{
+            border: 1p solid red;
+            background-color: yellow;
+        }
+        .red{background-color: red;}
+        .yellow{background-color: yellow;}
+    </style>
+</head>
+<body>
+    <button id="btn">클릭</button>
+    <div class="div1">
+        <p>안녕하세요요</p>
+        <p>안녕하세요요</p>
+        <p class="red">안녕하세요요</p>
+        <p>안녕하세요요</p>
+        <p class="yellow">안녕하세요요</p>
+        <p>안녕하세요요</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            $('#btn').on('click', function() {
+                //$('#display').text('width =' + $('.dim').width() + ' height =' + $('.dim').height());
+                //$('#display').text('width =' + $('.dim').innerWidth() + ' height =' + $('.dim').innerHeight());
+                $('#display').text('width =' + $('.dim').outerWidth() + ' height =' + $('.dim').outerHeight());
+            })
+        })        
+    </script>
+    <style>
+        div.dim {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            border: 10px solid red;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">클릭해보세요</button>
+    <span>크기 출력 :</span>
+    <span id="display"></span>
+    <div class="dim"></div>
+    
+</body>
+</html>

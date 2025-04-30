@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function() {
+            $('button').on('click', function(){
+                // $('#display').text('안녕하세요');
+                $('#display').load('./outer.txt');
+
+            })
+        })
+
+        // // // 아래는 자바스크립트로 구현된 코드
+        // document.addEventListener('DOMContentLoaded', function(){
+        //     const btn = document.querySelector('button');
+        //     btn.addEventListener('click', function(){
+        //         const display = document.querySelector("#display");
+        //         display.textContent = '안녕하세요';
+        //         const xhr = new XMLHttpRequest();
+        //         xhr.open('get', './outer.txt', true);
+        //         xhr.send();
+        //         xhr.onload = () => {
+        //             if(xhr.status == 200) {
+        //             display.textContent = xhr.responseText;
+        //         }
+        //     }
+        //     });
+        // });
+    </script>
+</head>
+<body>
+    <button>클릭해보세요</button>
+
+    <div id="display">=================================================</div>
+</body>
+</html>

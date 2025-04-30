@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="movie-list"></div>
+    <button id="req-btn">영화정보요청</button>
+
+    <script>
+        const movieListDiv = document.getElementById('movie-list');
+        const reqBtn = document.getElementById('req-btn');
+
+        let movieURL = 'http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=82ca741a2844c5c180a208137bb92bd7&targetDt=20120101';
+                  
+       
+        
+    const getMovieData = async() => {
+         let res = await fetch(movieURL)
+         let data = await res.json();
+        //  console.log('영화정보>>',data);
+
+        let movieList = data.boxOfficeResult.dailyBoxOfficeList;
+        console.log(movieList);
+
+        let resultHTML = '<table border="1">';
+            resultHTML += '<tr><th>순위</th><th>영화명</th><th>개봉일</th></tr>';
+
+            for(let i=0; i < movieList.length; i++) {
+                resultHTML +='<tr>';
+                resultHTML += `<td>${movieList[i].rank}</td>`;
+                resultHTML += `<td>${movieList[i].movieNm}</td>`;
+                resultHTML += `<td>${movieList[i].openDt}</td>`;
+                resultHTML += '</tr>';
+            }
+
+            resultHTML += '</table>';
+
+            movieListDiv.innerHTML = resultHTML;
+
+    }
+
+    reqBtn.addEventListener('click', getMovieData); 
+
+    </script>
+    
+</body>
+</html>
